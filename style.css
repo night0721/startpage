@@ -1,12 +1,12 @@
 :root {
     --font: "monospace";
     --font-family: "monospace";
-    --background: #080c07;
-    --foreground: #B9C9B8;
-    --green: #638660;
-    --red: #BD4D5A;
-    --orange: #A47449;
-    --branch: 1px solid #B9C9B8;
+    --background: #11111b;
+    --foreground: #cdd6f4;
+    --lavender: #b4befe;
+    --pink: #f5c2e7;
+    --blue: #89b4fa;
+    --branch: 1px solid #cdd6f4;
 }
 
 html {
@@ -34,7 +34,7 @@ body {
 }
 
 span {
-    color: var(--green);
+    color: var(--lavender);
 }
 
 h1 {
@@ -42,7 +42,7 @@ h1 {
     font-family: var(--font);
     font-size: 1rem;
     font-weight: normal;
-    color: var(--red);
+    color: var(--pink);
 }
 
 .tree > ul {
@@ -91,7 +91,7 @@ a {
 
 a:hover {
     color: var(--background);
-    background: var(--orange);
+    background: var(--blue);
 }
 
 form h1 {
